@@ -1,4 +1,4 @@
-html {
+.html {
 	font-size: 16px;
 }
 
@@ -50,7 +50,7 @@ p {
 header {
 	margin: 0 auto;
 	display: flex;
-	justify-content: center;
+	justify-content: center;.
 	align-items: center;
 	flex-flow: column wrap; 
 }
@@ -183,11 +183,11 @@ footer span {
 
 /*----------------- Media Type------------------- */
 
-/* TABLET */
+/* ----------- For screens 768px and larger ----------- */
 @media (min-width:768px )
 
-/* MONITORS */
-@media (min-width:1200px) {
+/* ----------- For screens 1200px wide and larger----------- */
+@media (min-width: 1200px) {
 .section-one,
 .section-two,
 .section-three {
@@ -205,8 +205,8 @@ footer span {
 }
 
 .section-two {
-border-left: 1px solid #eee;
-border-right: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
 }
 
 .section-two h3,
@@ -217,5 +217,4 @@ border-right: 1px solid #eee;
 p {
     padding: 0 30px;
 }
-
 }
